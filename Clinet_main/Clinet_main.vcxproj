@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1b15f039-ced6-4de6-9fa0-aca6d373d09c}</ProjectGuid>
-    <RootNamespace>BoostAsioserver</RootNamespace>
+    <ProjectGuid>{f09077bf-92a1-48be-b96e-556c68c9551c}</ProjectGuid>
+    <RootNamespace>Clinetmain</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,10 +129,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Server_main.cpp" />
+    <ClCompile Include="client_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ServerHeader.h" />
+    <ClInclude Include="ClientHeader.h" />
     <ClInclude Include="protocalHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
